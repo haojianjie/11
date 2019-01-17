@@ -41,6 +41,13 @@ int main()
         }
         if (code == 2)
         {
+            if (index > 0)
+            {
+                index--;
+                printf("shanchuwancheng,dianjihuichejixu\n");
+                char xx;
+                scanf("%c",&xx);
+                scanf("%c",&xx);
             
         }
         if (code == 3)
@@ -60,5 +67,6 @@ int main()
     }
 
     return 0;
-
+    }
 }
+    
